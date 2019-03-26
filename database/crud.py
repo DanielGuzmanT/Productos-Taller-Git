@@ -15,9 +15,10 @@ def insert_product(data):
         guardar los cambios.
     """
     session = DBSession()
+    
     #
     #
-    #
+
     session.commit()
     session.close()
 
@@ -28,7 +29,7 @@ def get_products():
         el uso de la sesión.
     """
     session = DBSession()
-    #
-    #
-    #
+    # products = ?
+    
     session.close()
+    # return products

@@ -14,3 +14,6 @@ class Product(Base):
     def __repr__(self):
         return "<Product(id='{}', name='{}', price='{}', description='{}')>"\
         .format(self.id, self.name, self.price/10, self.description)
+
+    def __str__(self):
+        return str(self.id).center(3) + str(self.name).center(20) + str(round(self.price/100, 2)) + str(self.description).center(30)

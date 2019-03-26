@@ -9,7 +9,7 @@ def input_chosen_option():
 def input_register_product():
     """ Función que devuelve un diccionario con los datos del producto a registrar """
     inputs = {}
-    #
-    #
-    #
+    # nombre
+    # precio
+    # descripcion
     return inputs
