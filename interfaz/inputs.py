@@ -1,3 +1,4 @@
+from validation.validate import validate_product_data
 
 def input_chosen_option():
     """ Función que devuelve la opción que el usuario desea ejecutar """

@@ -32,3 +32,11 @@ def gui_confirm_product_registered():
 def gui_show_products_list(products_list):
     """ GUI resultado 2: Interfaz que muestra el listado de todos los productos """
     pass
+
+
+##########################
+# DESPUES DE ELEGIR OPCIÓN
+def gui_input_error(message):
+    """ GUI resultado ERROR: Interfaz que muestra una pantalla de error debido al mal ingreso
+    de la data del producto o eligió mal la opción. """
+    pass
